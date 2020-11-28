@@ -20,7 +20,7 @@ func GetNumberFactorial(CheckNumber int) int {
 		return 0
 	}
 	factorialNumber := 1
-	for num := 1; num <= CheckNumber; num++ {
+	for num := 1; num <= CheckNumber/2; num++ {
 		factorialNumber = factorialNumber * num
 	}
 	return factorialNumber
